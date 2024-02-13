@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 02:47:25 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjo0MToyOCDDllM7Mjg4MA=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjo0NzoyNSDDllM7MTsyOTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ba&#351;lang&#305;&#231;, biti&#351;" type="Integer" array="False" size=""/>
+            <output expression="&quot;ba&#351;lang&#305;&#231; degerini girin&quot;" newline="True"/>
+            <input variable="ba&#351;lang&#305;&#231;"/>
+            <output expression="&quot;biti&#351; de&#287;erini girin&quot;" newline="True"/>
+            <input variable="biti&#351;"/>
+            <do expression="ba&#351;lang&#305;&#231;&lt;=biti&#351;">
+                <if expression="ba&#351;lang&#305;&#231; % 2==0">
+                    <then>
+                        <output expression="ba&#351;lang&#305;&#231;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="ba&#351;lang&#305;&#231;" expression="ba&#351;lang&#305;&#231;+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

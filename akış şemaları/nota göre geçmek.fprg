@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 02:12:15 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjowNDoyNSDDllM7Mjg3Ng=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjoxMjoxNSDDllM7MjsyOTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="not1, not2, ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;birinci notu giriniz&quot;" newline="True"/>
+            <input variable="not1"/>
+            <output expression="&quot;ikinci notu giriniz&quot;" newline="True"/>
+            <input variable="not2"/>
+            <assign variable="ortalama" expression="(not1+not2)/2"/>
+            <if expression="ortalama&gt;50">
+                <then>
+                    <output expression="ortalama&amp;&quot;ge&#231;ti&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="ortalama&amp;   &quot; &#13;&#10;ge&#231;emedi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

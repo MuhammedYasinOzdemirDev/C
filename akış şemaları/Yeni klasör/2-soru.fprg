@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-25 12:24:20 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0yNTsxMTo1NDo0MCDDlsOWOzMwMDk="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0yNTsxMjoyNDoyMCDDllM7MzsyOTg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saya&#231;, sayi, giri&#351;" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="random(101)"/>
+            <for variable="saya&#231;" start="1" end="5&#13;&#10;" direction="inc" step="1">
+                <output expression="saya&#231;&amp;&quot;. say&#305;y&#305; giriniz&quot;" newline="True"/>
+                <input variable="giri&#351;"/>
+                <if expression="sayi=giri&#351;">
+                    <then>
+                        <output expression="&quot;sayiyi buldunuz.&quot;" newline="True"/>
+                        <assign variable="saya&#231;" expression="5"/>
+                    </then>
+                    <else>
+                        <if expression="sayi&gt;giri&#351;">
+                            <then>
+                                <output expression="&quot;girdi&#287;iniz say&#305; k&#252;&#231;&#252;kt&#252;r&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;girdi&#287;iniz sayi b&#252;y&#252;kt&#252;r&quot;" newline="True"/>
+                            </else>
+                        </if>
+                        <if expression="saya&#231;=5">
+                            <then>
+                                <output expression="&quot;hakk&#305;n&#305;z doldu say&#305;y&#305; bulamad&#305;n&#305;z.&quot;" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;program sonland&#305;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

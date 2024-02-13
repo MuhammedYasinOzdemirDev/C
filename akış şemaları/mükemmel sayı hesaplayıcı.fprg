@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-18 02:39:28 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswMjozNToyMiDDllM7Mjg3OQ=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswMjozOToyOCDDllM7MTsyOTk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, sayi, i" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <output expression="&quot;say&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="1" end="sayi-1" direction="inc" step="1">
+                <if expression="sayi%i==0">
+                    <then>
+                        <assign variable="toplam" expression="toplam+i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="toplam=sayi">
+                <then>
+                    <output expression="sayi&amp;&quot;. say&#305;s&#305; m&#252;kemmel say&#305;d&#305;r.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="sayi&amp;&quot;. say&#305;s&#305; m&#252;kemmel say&#305; de&#287;ildir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

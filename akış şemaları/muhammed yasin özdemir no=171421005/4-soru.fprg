@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-18 04:53:32 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswNDo0NDowNCDDllM7Mjg4MQ=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswNDo1MzozMiDDllM7MTsyOTkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i, ttop, &#231;top" type="Integer" array="False" size=""/>
+            <assign variable="&#231;top" expression="0"/>
+            <assign variable="ttop" expression="0"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <input variable="sayi"/>
+                <if expression="sayi%2==0">
+                    <then>
+                        <assign variable="&#231;top" expression="&#231;top+sayi"/>
+                    </then>
+                    <else>
+                        <assign variable="ttop" expression="ttop+sayi"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;Tek say&#305;lar&#305;n toplam&#305;=&quot;&amp;ttop&amp;&#13;&#10;&quot;&#13;&#10;&#199;ift say&#305;lar&#305;n toplam&#305;=&quot;&#13;&#10;&amp;&#231;top" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

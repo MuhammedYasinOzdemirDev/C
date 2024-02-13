@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-17 03:03:45 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNzswMjo1Nzo0OSDDllM7Mjg5MQ=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNzswMzowMzo0NSDDllM7MTsyOTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin, tane" type="String" array="False" size=""/>
+            <declare name="say, i" type="Integer" array="False" size=""/>
+            <assign variable="tane" expression="&quot; &quot;"/>
+            <assign variable="say" expression="1"/>
+            <output expression="&quot;metni giriniz&quot;" newline="True"/>
+            <input variable="metin"/>
+            <for variable="i" start="0" end="len(metin)-1" direction="inc" step="1">
+                <if expression="char(metin,i)==tane">
+                    <then>
+                        <assign variable="say" expression="say+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="say&amp;&quot;. tane kelime vard&#305;r&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

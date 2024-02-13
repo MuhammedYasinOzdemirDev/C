@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-17 02:48:54 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNzswMjo0MTo1OSDDllM7Mjg4NQ=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNzswMjo0ODo1NCDDllM7MTsyOTk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin" type="String" array="False" size=""/>
+            <declare name="say, i" type="Integer" array="False" size=""/>
+            <assign variable="say" expression="0"/>
+            <output expression="&quot;metni giriniz&quot;" newline="True"/>
+            <input variable="metin"/>
+            <for variable="i" start="0" end="len(metin)-1" direction="inc" step="1">
+                <if expression="char(metin,i)==&quot;a&quot;">
+                    <then>
+                        <assign variable="say" expression="say+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="say&amp;&quot; tane a var&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 02:41:25 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjozMDo0NyDDllM7Mjg3OQ=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjo0MToyNSDDllM7MTE7MzAzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saya&#231;" type="Integer" array="False" size=""/>
+            <assign variable="saya&#231;" expression="0"/>
+            <do expression="saya&#231;&lt;=100">
+                <if expression="saya&#231;%2==0">
+                    <then>
+                        <output expression="saya&#231;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="saya&#231;" expression="saya&#231;+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

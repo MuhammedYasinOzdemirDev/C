@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 02:30:45 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjoxNjowOCDDllM7Mjg4MA=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjozMDo0NSDDllM7MTsyOTg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saya&#231;" type="Integer" array="False" size=""/>
+            <assign variable="saya&#231;" expression="1"/>
+            <output expression="&quot;yazd&#305;rmak i&#231;in say&#305; giriniz bas&#305;n&quot;" newline="True"/>
+            <input variable="saya&#231;"/>
+            <do expression="saya&#231;&lt;=20">
+                <output expression="&quot;merhaba&quot;" newline="True"/>
+                <assign variable="saya&#231;" expression="saya&#231;+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

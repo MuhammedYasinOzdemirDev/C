@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 02:02:29 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMTowNDowNCDDllM7Mjg3Mg=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjowMjoyOSDDllM7MTsyOTg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sonu&#231;" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <assign variable="sonu&#231;" expression="a-b"/>
+                </then>
+                <else>
+                    <assign variable="sonu&#231;" expression="b-a"/>
+                </else>
+            </if>
+            <output expression="sonu&#231;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

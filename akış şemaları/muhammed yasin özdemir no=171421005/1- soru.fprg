@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-18 02:52:06 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswMjo0NToxMyDDllM7Mjg4MA=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswMjo1MjowNiDDllM7MTsyOTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <output expression="sayi&amp;&quot;. say&#305;s&#305;n&#305;n b&#246;lenleri:&quot;" newline="True"/>
+            <for variable="i" start="1" end="sayi" direction="inc" step="1">
+                <if expression="sayi%i==0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

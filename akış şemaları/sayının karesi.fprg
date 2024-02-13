@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 01:03:41 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjsxMjo1NToxOSDDllM7Mjg4Ng=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMTowMzo0MSDDllM7MTsyOTgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, karesi" type="Integer" array="False" size=""/>
+            <output expression="&quot;karesini almak istedi&#287;iniz say&#305;y&#305; girin&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="karesi" expression="a^2"/>
+            <output expression="&quot;say&#305;n&#305; karesi=&quot;&amp;karesi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

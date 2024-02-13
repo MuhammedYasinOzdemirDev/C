@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 03:11:46 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMjo1NjoxNiDDllM7Mjg4Mw=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xNjswMzoxMTo0NiDDllM7MTsyOTg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="topla, sayi, saya&#231;" type="Integer" array="False" size=""/>
+            <output expression="&quot;program sonlanmas&#305; i&#231;in s&#305;f&#305;ra bas&#305;n&#305;z&quot;" newline="True"/>
+            <assign variable="saya&#231;" expression="1"/>
+            <assign variable="topla" expression="0"/>
+            <do expression="sayi!=0">
+                <output expression="saya&#231;&amp;&quot;. say&#305;y&#305; giriniz&quot;" newline="True"/>
+                <input variable="sayi"/>
+                <assign variable="topla" expression="topla+sayi"/>
+                <assign variable="saya&#231;" expression="saya&#231;+1"/>
+                <output expression="&quot;toplam=&quot;&amp;topla" newline="True"/>
+            </do>
+            <output expression="&quot;program sonland&#305;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

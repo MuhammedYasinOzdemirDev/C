@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-18 04:36:21 &#214;S"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswNDoyMTo0MSDDllM7Mjg3Nw=="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUhNMERBN1M7MjAyMS0xMC0xODswNDozNjoyMSDDllM7MTsyOTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;A kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;C kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a=b">
+                <then>
+                    <if expression="b=c">
+                        <then>
+                            <output expression="&quot;e&#351;kenar &#252;&#231;gen&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;ikizkenar &#252;&#231;gen&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b=c">
+                        <then>
+                            <output expression="&quot;ikizkenar &#252;&#231;gen&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a=c">
+                                <then>
+                                    <output expression="&quot;ikizkenar &#252;&#231;gen&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;&#231;e&#351;itkenar &#252;&#231;gen&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
