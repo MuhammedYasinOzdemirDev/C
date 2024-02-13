@@ -1,0 +1,26 @@
+#include<stdio.h>
+main(){
+	double toplam,k,z;
+    int i,j,x,a;
+    printf("x degerini giriniz=");
+    scanf("%d",&x);
+    toplam=1;
+    for(i=1;i<=15;i++){
+    	a=1;
+    	for(j=i;j>=1;j--){
+    	a=a*j;
+		}
+		k=x;
+		if(i==1){
+		}
+		else{
+		for(j=2;j<=i;j++){	
+			k=x*k;}
+		}
+		z=k/a;
+		toplam=toplam+z;
+		printf("%d.sonuc=%f\n",i,toplam);
+	}
+	printf("program sonlandi");
+	}
+    
